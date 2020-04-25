@@ -1,6 +1,6 @@
 #elvish script
 fn scriptWD {
-    wd=(path-dir (src)[path])
+    wd=(path-dir (src)[name])
     echo cd $wd
     cd $wd
 }
